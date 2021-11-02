@@ -4,7 +4,7 @@
 #SBATCH --mail-user=sachamacias@ufl.edu 
 #SBATCH --nodes=1
 #SBATCH --cpus-per-task=1
-#SBATCH --ntasks-per-node=16
+#SBATCH --ntasks-per-node=8
 #SBATCH --mem=8gb
 #SBATCH --time=4:00:00
 #SBATCH --output=logs/pargenes.%A.out
